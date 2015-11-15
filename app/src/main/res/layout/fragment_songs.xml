@@ -1,0 +1,62 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/songs_recycleview"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+   <!-- <LinearLayout
+        android:id="@+id/buttonset"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true"
+
+        >
+        <ImageButton android:id="@+id/prev"
+            android:layout_width="95dp"
+            android:layout_height="70dp"
+            android:src="@drawable/prev"
+            android:background="#00ff0000"
+
+            />
+        <ImageButton android:id="@+id/pause"
+            android:layout_width="95dp"
+            android:layout_height="70dp"
+            android:src="@drawable/pause"
+            android:background="#00ff0000"
+
+
+            />
+        <ImageButton android:id="@+id/play"
+            android:layout_width="95dp"
+            android:layout_height="70dp"
+            android:src="@drawable/play"
+            android:scaleType="centerInside"
+            android:background="#00ff0000"
+            android:onClick="play"
+
+
+            />
+
+        <ImageButton android:id="@+id/next"
+            android:layout_width="95dp"
+            android:layout_height="70dp"
+            android:src="@drawable/next"
+            android:layout_toRightOf="@+id/pause"
+            android:background="#00ff0000"
+
+            />
+
+    </LinearLayout>-->
+</RelativeLayout>
